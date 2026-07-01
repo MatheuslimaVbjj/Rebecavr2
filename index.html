@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Atlântico Studio | Mais do que música. Uma cena.</title>
+  <meta name="description" content="Atlântico Studio é um hub cultural de música, eventos, produção criativa e experiências ao vivo." />
+  <meta name="theme-color" content="#06101d" />
+  <link rel="icon" type="image/png" href="assets/favicon.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <div class="loader" id="loader">
+    <div class="loader-glow"></div>
+    <img src="assets/logo-cinematic.png" alt="Atlântico Studio" />
+    <span>carregando experiência</span>
+  </div>
+
+  <header class="site-header" id="header">
+    <a class="brand" href="#inicio" aria-label="Atlântico Studio">
+      <img src="assets/logo-header.png" alt="Atlântico Studio" />
+      <span>Atlântico Studio</span>
+    </a>
+
+    <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu">
+      <span></span><span></span>
+    </button>
+
+    <nav class="nav-menu" id="navMenu">
+      <a href="#manifesto">Manifesto</a>
+      <a href="#servicos">Serviços</a>
+      <a href="#eventos">Eventos</a>
+      <a href="#prova">Cena</a>
+      <a class="nav-cta" href="#contato">Entrar</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <video class="hero-video" autoplay muted loop playsinline>
+        <source src="assets/ocean.mp4" type="video/mp4" />
+      </video>
+
+      <div class="ocean-fallback" aria-hidden="true"></div>
+      <div class="hero-overlay"></div>
+      <div class="hero-noise"></div>
+
+      <div class="hero-inner">
+        <div class="hero-badge">cultura • música • movimento</div>
+        <img class="hero-logo" src="assets/logo-header.png" alt="Atlântico Studio" />
+        <h1>Mais do que música.<br><span>Uma cena.</span></h1>
+        <p>
+          Produção criativa, eventos culturais e experiências ao vivo para artistas,
+          marcas e pessoas que vivem a arte de verdade.
+        </p>
+
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#eventos">Ver próximos eventos</a>
+          <a class="btn btn-secondary" href="#contato">Entrar na cena</a>
+        </div>
+      </div>
+
+      <div class="scroll-indicator">
+        <span></span>
+        desça para sentir
+      </div>
+    </section>
+
+    <section class="section manifesto" id="manifesto">
+      <div class="container narrow">
+        <span class="eyebrow">Manifesto Atlântico</span>
+        <h2>Um estúdio que não nasceu para ser só endereço. Nasceu para virar movimento.</h2>
+        <p>
+          O Atlântico Studio conecta som, presença, estética e comunidade. Aqui,
+          a experiência é pensada como cena: um espaço onde artistas aparecem,
+          encontros acontecem e a cultura ganha corpo.
+        </p>
+      </div>
+    </section>
+
+    <section class="section services" id="servicos">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">O que fazemos</span>
+          <h2>Estrutura criativa para transformar ideia em presença.</h2>
+        </div>
+
+        <div class="service-grid">
+          <article class="service-card">
+            <div class="card-number">01</div>
+            <h3>Produção Musical</h3>
+            <p>Direção sonora, gravação, performance, identidade musical e conteúdo para artistas que querem elevar a própria entrega.</p>
+            <a href="#contato">Quero produzir</a>
+          </article>
+
+          <article class="service-card featured">
+            <div class="card-number">02</div>
+            <h3>Eventos Culturais</h3>
+            <p>Experiências ao vivo com atmosfera, curadoria e narrativa visual para criar momentos que o público lembra.</p>
+            <a href="#eventos">Ver eventos</a>
+          </article>
+
+          <article class="service-card">
+            <div class="card-number">03</div>
+            <h3>Seletivas & Cena</h3>
+            <p>Chamadas, inscrições, encontros e ativações para novos artistas entrarem no radar da comunidade Atlântico.</p>
+            <a href="#contato">Participar</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section events" id="eventos">
+      <div class="container">
+        <div class="section-head split">
+          <div>
+            <span class="eyebrow">Agenda cultural</span>
+            <h2>Próximos movimentos</h2>
+          </div>
+          <a class="text-link" href="#contato">Inscrever agora</a>
+        </div>
+
+        <div class="event-list">
+          <article class="event-card">
+            <div class="date">
+              <strong>12</strong>
+              <span>JUL</span>
+            </div>
+            <div class="event-content">
+              <span class="tag">inscrições abertas</span>
+              <h3>Noite Atlântica #03</h3>
+              <p>Performance, encontro e experiência sonora em uma noite pensada para quem vive a cena.</p>
+            </div>
+            <a class="event-btn" href="#contato">Inscrever-se</a>
+          </article>
+
+          <article class="event-card">
+            <div class="date">
+              <strong>20</strong>
+              <span>JUL</span>
+            </div>
+            <div class="event-content">
+              <span class="tag">live session</span>
+              <h3>Studio Live Session</h3>
+              <p>Captação de performance em ambiente íntimo, visual cinematográfico e presença de estúdio.</p>
+            </div>
+            <a class="event-btn" href="#contato">Quero participar</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section proof" id="prova">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">A cena em imagem</span>
+          <h2>Estética, presença e comunidade em movimento.</h2>
+        </div>
+
+        <div class="gallery">
+          <div class="gallery-item large"><span>palco</span></div>
+          <div class="gallery-item"><span>estúdio</span></div>
+          <div class="gallery-item"><span>bastidores</span></div>
+          <div class="gallery-item wide"><span>público</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="final-cta" id="contato">
+      <div class="container narrow">
+        <span class="eyebrow">Faça parte</span>
+        <h2>Entre na cena Atlântico.</h2>
+        <p>Fale com a equipe para eventos, produção, inscrições e parcerias culturais.</p>
+
+        <form class="lead-form" onsubmit="return handleLead(event)">
+          <input type="text" name="nome" placeholder="Seu nome" required />
+          <input type="tel" name="whatsapp" placeholder="WhatsApp" required />
+          <input type="email" name="email" placeholder="E-mail" required />
+          <button type="submit">Enviar interesse</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <div class="mobile-cta">
+    <a href="#eventos">Eventos</a>
+    <a href="#contato">Entrar</a>
+  </div>
+
+  <footer class="footer">
+    <img src="assets/logo-header.png" alt="Atlântico Studio" />
+    <p>© 2026 Atlântico Studio. Cultura em movimento.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
